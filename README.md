@@ -55,9 +55,9 @@ Based on rigorous cross-validation evaluation against clinical laryngoscopic ima
 
 | Methodology | Peak PSNR (dB) | Structural Similarity (SSIM) | NIQE Score (Lower = Better) | Operational Throughput (FPS) |
 | :--- | :---: | :---: | :---: | :---: |
-| **Star Function** | $14.21$ | $0.42$ | $8.54$ | — |
-| **Spatial Interpolation** | $17.02$ | $0.59$ | $7.11$ | **30.0+ (Real-Time)** |
-| **TwIST Optimization** | $18.45$ | $0.66$ | $6.48$ | $2.41$ (Iterative Latency) |
+| **Star Function** | $18.83$ | $0.59$ | $8.55$ | $53.74$ |
+| **Spatial Interpolation** | $15.14$ | $0.69$ | $10.96$ | **397.22** |
+| **TwIST Optimization** | $17.23$ | $0.37$ | $14.50$ | $2.89$ (Iterative Latency) |
 | **HAR-CNN (Proposed)** | **19.61** | **0.74** | **6.14** | **13.16 (GPU Accelerated)** |
 
 ### Key Clinical Insight:
