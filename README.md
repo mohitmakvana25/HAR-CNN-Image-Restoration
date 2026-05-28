@@ -18,7 +18,7 @@ This toolkit offers four unique methodologies designed to eliminate these pixel 
 1. **Proposed Deep Learning Solution (`notebooks/HAR_CNN.ipynb`):** A Hierarchical Attentive Residual Convolutional Neural Network (HAR-CNN) with Squeeze-and-Excitation (SE) channel scaling. It maps distorted inputs to targets through Global Residual Learning (GRL).
 2. **Classical Iterative Optimization (`notebooks/TWIST with NIQE.ipynb`):** An accelerated Two-Step Iterative Shrinkage/Thresholding solver leveraging Total Variation regularizers (TV-Chambolle proximal mapping) to treat artifact removal as an inverse problem.
 3. **Adaptive Geometric Filtering (`notebooks/Interpolation with NIQE.ipynb`):** Edge-directed adaptive spatial sub-pixel interpolation used to smooth fiber-core high frequencies.
-4. **Diagnostic & Quality Evaluation (`notebooks/Star With NIQE.ipynb`):** Star-pattern tracking combined with a No-Reference Image Quality Assessment via **NIQE (Natural Image Quality Evaluator)** to compute objective human visual acceptability scores.
+4. **Frequency Filtering method (`notebooks/Star With NIQE.ipynb`):** Star-pattern tracking combined with a No-Reference Image Quality Assessment via **NIQE (Natural Image Quality Evaluator)** to compute objective human visual acceptability scores.
 
 ---
 
